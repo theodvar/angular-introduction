@@ -7,13 +7,16 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [PersonTableComponent, EventBindExampleComponent,RouterLink, RouterOutlet],
+  imports: [
+    PersonTableComponent, 
+    EventBindExampleComponent,
+    RouterLink, 
+    RouterOutlet
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  
-
  person0: Person = {
     givenName: 'Theodosia',
     surName: 'Vardoulaki',
