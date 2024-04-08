@@ -1,6 +1,5 @@
 # Εισαγωγή στο Angular Framework
 
-[9:01 μ.μ.] ΦΡΑΓΚΟΥΔΑΚΗΣ ΧΡΙΣΤΟΔΟΥΛΟΣ;FRAGKOUDAKIS CHRISTODOULOS
 ## Βήμα 10: Angular Material
  
 - Εγκατάσταση του Angular Material και του Angular CDK:
