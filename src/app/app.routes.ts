@@ -29,7 +29,8 @@ export const routes: Routes = [
     component: UserRegistrationComponent },
     {path: 'restricted-content-example', 
     component: RestrictedContentExampleComponent,
-    canActivate: [authGuard]},
+    canActivate: [authGuard]
+    },
     {path: 'login', component:UserLoginComponent},
     { path: '', component: WelcomeComponent},
 
