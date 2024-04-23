@@ -40,7 +40,7 @@ export const routes: Routes = [
     {component: FunForNerdsComponent, path:'fun-for-nerds'},
     {path: 'login', component:UserLoginComponent},
     {path:'crud-example', component: CrudDashboardComponent, 
-    //canActivate: [authGuard]
+    canActivate: [authGuard]
     },
     {path:'crud-example/create', component: CrudCreateExampleComponent, canActivate: [authGuard]
     },
